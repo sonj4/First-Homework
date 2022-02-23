@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Noto Serif Display', serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.header{
+    font-family: 'Noto Serif Display', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#header1 {
+    font-size: 4em;
+    color: rgb(223, 145, 57);
+    letter-spacing: 0.2em;
+    
+}
+
+#header2 {
+    font-size: 1.1em;
+    color: rgb(126, 126, 126);
+    letter-spacing: 0.05em;
+}
+
+.navMenu {
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 50% 
+    /* word-spacing: 2em;   */
+   
+}
+
+a{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.leftNav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em; 
+      
+}
+.leftNav  a:link{
+    text-decoration: underline 0.15em rgba(223, 145, 57, 0);
+    transition: text-decoration-color 300ms; 
+}
+
+.leftNav  a:visited{
+    color: gray;
+    text-decoration: none;
+}
+
+.leftNav  a:hover {
+    color: rgb(223, 145, 57);
+    text-decoration-color: rgb(223, 145, 57);
+  }
+  
+.leftNav  a:active {
+    font-weight: bold;
+    color: rgb(230, 142, 42);
+    text-decoration: underline;
+}
+
+.rightNav a {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em; 
+      
+}
+.rightNav  a:link{
+    text-decoration: underline 0.15em rgba(223, 145, 57, 0);
+    transition: text-decoration-color 300ms; 
+}
+
+.rightNav  a:visited{
+    color: gray;
+    text-decoration: none;
+}
+
+.rightNav  a:hover {
+    color: rgb(223, 145, 57);
+    text-decoration-color: rgb(223, 145, 57);
+  }
+  
+.rightNav  a:active {
+    font-weight: bold;
+    color: rgb(230, 142, 42);
+    text-decoration: underline;
+}
+
+#dummySpan {
+    color: rgb(126, 126, 126);
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em; 
+}
+
+#content1-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#content1-img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.signUp {
+    position: absolute;
+    
+  }
