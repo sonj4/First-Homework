@@ -11,10 +11,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin: 5px;
 }
 
 #header1 {
+    margin: 5px;
     font-size: 4em;
     color: rgb(223, 145, 57);
     letter-spacing: 0.2em;
@@ -22,12 +23,15 @@
 }
 
 #header2 {
+    
     font-size: 1.1em;
     color: rgb(126, 126, 126);
     letter-spacing: 0.05em;
 }
 
 .navMenu {
+    margin-top: 30px;
+    margin-bottom: 30px;
      display: flex;
     flex-direction: row;
     justify-content: center;
@@ -95,6 +99,24 @@ a{
     text-decoration: underline;
 }
 
+#search {
+    padding: 5px;
+    border-radius: 1px;
+    border: 1px solid rgba(223, 145, 57, 0.2);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+#search:focus{
+    border: 1px solid rgba(223, 145, 57, 1);
+    box-shadow: 0 0 5pt 2pt #e0e0e0;
+}
+
+#search:hover{
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+}
+
 #dummySpan {
     color: rgb(126, 126, 126);
     font-weight: bold;
@@ -106,18 +128,103 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    color: rgb(223, 145, 57);
 }
 
 #content1-img {
     position: relative;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+}
+.email-signup-container{
+    display: flex;
+    flex-direction: column;
+    width: 18em;
     
 }
+#email{
+    margin: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 1em;
+    border-radius: 1px;
+    border: 1px solid rgba(223, 145, 57, 0.2);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
 
-.signUp {
-    position: absolute;
-    
+#email:focus{
+    border: 1px solid rgba(223, 145, 57, 1);
+    box-shadow: 0 0 5pt 2pt #e0e0e0;
+    cursor: text;
+}
+
+#email:hover{
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+}
+#sign-up {
+    margin: 0.5em;
+    font-family: 'Noto Serif Display', serif;
+    border: none;
+    background-color: rgb(245, 177, 99);
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 1em;
+}
+
+#tips {
+    font-family: 'Noto Serif Display', serif; 
+    color: rgb(223, 145, 57);
+    font-size: 1.5em;
+    word-spacing: 0.01em;
+    text-align: center;
+}
+
+.content-2-board {
+    padding-top: 20px;;
+    display: grid;
+   /*  grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px; */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.gridImg {
+    border: 1px solid  hsla(0, 0%, 0%, 0.1);
+    box-shadow: 0 0.15em 0.175em hsla(0, 0%, 0%, 0.1);
+    margin: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 500ms;
+    transition-timing-function: ease;
+}
+
+.gridImg:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
+    transition: 500ms;
+    transition-timing-function: ease;
   }
+
+.gridImg > .gridImage{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.random-text{
+    text-align: center;
+}
