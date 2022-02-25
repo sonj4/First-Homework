@@ -3,6 +3,7 @@
     padding: 0;
     /* font-family: 'Noto Serif Display', serif; */
     /* font-family: 'Montserrat', sans-serif; */
+    
 }
 
 .header{
@@ -132,16 +133,27 @@ a{
     color: rgb(223, 145, 57);
 }
 
-#content1-img {
+
+
+#content1-container{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+
+#content1-img {   
     position: relative;
     display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;   
 }
 .email-signup-container{
     display: flex;
     flex-direction: column;
     width: 18em;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
     
 }
 #email{
@@ -230,6 +242,76 @@ a{
 }
 
 #kyla-img{
-    width: 25em;
-    height: 20em;
+    max-width: 100%;
+    height: auto;
+    margin-left: 5em;
+}
+
+.conten-3 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    
+    
+}
+
+.content2-img{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#kyla-img {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+
+#flower{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    transition: transform .7s ease-in-out;
+}
+
+#flower:hover {
+    transform: rotate(10deg);
+}
+
+#content3-text1 {
+    color: rgb(223, 145, 57);
+    font-family: 'Noto Serif Display', serif; 
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#content3-text2{
+    color: gray;
+    font-family: 'Noto Serif Display', serif; 
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#content3-text3 > span{
+    color: white;
+    font-family: 'Noto Serif Display', serif; 
+    margin: 0.5em;
+    border: none;
+    background-color: rgb(218, 138, 47);
+    padding: 0.1em 0.9em;
+    font-size: 1em;
+}
+
+#content3-text3 {
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+#content3-text4 {
+    font-family: 'Dancing Script', cursive;
+    color: gray;
+    font-size: 1.5em;
 }
