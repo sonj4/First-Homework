@@ -995,19 +995,17 @@ a {
     width: 100%;
 }
 
-.form-7 > input,p{
+.form-7 > input{
     margin: 5px;
-}
-
-.form-7 > input, p {
     width: 80%;
-    
 }
 
 .form-7 > p {
     font-family: 'Montserrat', sans-serif;
     color: #a5a5a5;
     font-size: 0.7rem;
+    margin: 5px;
+    width: 80%;
 }
 
 .form-7 >  input[type="submit"] {
