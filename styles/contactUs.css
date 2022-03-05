@@ -1,13 +1,13 @@
 * {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 .container { 
-    width: 1140px;
+    width: 1140px; 
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 @media (max-width: 768px) {
@@ -43,6 +43,7 @@
     color: rgb(223, 145, 57);
     letter-spacing: 0.2rem;
     text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(204,171,171,0.89);
 }
 
 #header2 {
@@ -141,8 +142,9 @@ a {
 
 .leftNav a:active {
     font-weight: bold;
-    color: rgb(230, 142, 42);
+    color: rgb(223, 145, 57);
     text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(177, 177, 177, 0.89);
 }
 
 .rightNav a {
@@ -171,6 +173,7 @@ a {
     font-weight: bold;
     color: rgb(230, 142, 42);
     text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(177, 177, 177, 0.89);
 }
 
 #search {
@@ -198,49 +201,8 @@ a {
     font-size: 0.9em;
 }
 
-/* -------------about us----------------- */
-.aboutUsWrapper {
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../about-us-images/watercolor-background_91008-33.webp);
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    justify-items: center;
-    align-items: center;
-}
+/* ---------------CONTACT US------------------- */
 
-.aboutJovana, .aboutSonja {
-    
-    padding: 1rem;
-    font-size: 1rem;
-    font-family: 'Noto Serif Display', serif;
-    box-shadow: rgba(223, 145, 57, 0.4) 0px 2px 4px, rgba(223, 145, 57, 0.3) 0px 7px 13px -3px, rgba(223, 145, 57, 0.2) 0px -3px 0px inset;
-}
-.key {
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-.Jovana > img, .Sonja > img{
-    
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-    box-shadow: rgba(223, 145, 57, 0.4) 0px 2px 4px, rgba(223, 145, 57, 0.3) 0px 7px 13px -3px, rgba(223, 145, 57, 0.2) 0px -3px 0px inset;
-    
-}
-
-@media (max-width: 768px){
-    .aboutUsWrapper {
-        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../about-us-images/watercolor-background_91008-33.webp);
-        background-size: cover;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        justify-items: center;
-        align-items: center;
-    }
-}
 
 /* --------------footer---------------- */
 
