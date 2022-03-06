@@ -255,6 +255,117 @@ a {
 }
 
 /* ---------------CONTACT US------------------- */
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../contact-us-images/hand-painted-watercolor-floral-background_79603-1868.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 2rem;
+}
+
+.field {
+    margin: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 1rem;
+    border-radius: 1px;
+    border: 1px solid rgba(223, 145, 57, 0.2);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+    
+}
+
+.field:focus {
+    border: 1px solid rgba(223, 145, 57, 1);
+    box-shadow: 0 0 5pt 2pt #e0e0e0;
+    cursor: text;
+}
+
+.field:hover {
+    box-shadow:  5pt 2pt rgba(136, 136, 136, 0.6);
+}
+
+.field-area {
+    margin: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 1rem;
+    border-radius: 1px;
+    border: 1px solid rgba(223, 145, 57, 0.2);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.field-area:focus {
+    border: 1px solid rgba(223, 145, 57, 1);
+    box-shadow: 0 0 5pt 2pt #e0e0e0;
+    cursor: text;
+}
+
+.field-area:hover {
+    box-shadow:  5pt 2pt rgba(136, 136, 136, 0.6);
+}
+
+.submit {
+    margin: 0.5rem;
+    font-family: 'Noto Serif Display', serif;
+    border: none;
+    background-color: rgb(245, 177, 99);
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 1em;
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: content-box;
+}
+
+.social {
+    font-family: 'Noto Serif Display', serif;
+    color: gray;
+}
+
+@media (max-width:768px){    
+    .contact-form{
+        width: 90%;
+    }
+
+    .contact-us{
+        width: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width:1140px){    
+    .contact-form{
+        width: 50%;
+    }
+
+    .contact-us{
+        width: auto;
+    }
+}
+
 
 
 /* --------------footer---------------- */
