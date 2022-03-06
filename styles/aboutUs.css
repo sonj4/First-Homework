@@ -181,6 +181,7 @@ a {
 }
 
 .left-nav a:link {
+    color: gray;
     text-decoration: underline 0.15rem rgba(223, 145, 57, 0);
     transition: text-decoration-color 300ms;
 }
@@ -209,6 +210,7 @@ a {
 }
 
 .right-nav a:link {
+    color: gray;
     text-decoration: underline 0.15rem rgba(223, 145, 57, 0);
     transition: text-decoration-color 300ms;
 }
